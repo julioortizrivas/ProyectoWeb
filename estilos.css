@@ -1,0 +1,29 @@
+body {
+	display: grid;
+	grid-template-columns: 20% 75%;
+	column-gap: 10px;
+	justify-content: center;
+}
+
+div{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+#lienzo{
+	background-color: #baffc9;
+}
+
+#botones {
+	background-color: #ffdfba;
+}
+
+button {
+	width: 100px;
+	padding: 20px;
+	margin: 5px;
+	background-color: #ffffba;
+	border-radius: 10px;
+}
+
+
