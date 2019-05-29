@@ -5,6 +5,11 @@ body {
 	justify-content: center;
 }
 
+div{
+	margin: 0px;
+	padding: 0px;
+}
+
 #lienzo{
 	background-color: #baffc9;
 	text-align: center;
