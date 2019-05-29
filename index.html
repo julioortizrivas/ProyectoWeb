@@ -4,23 +4,22 @@
 		<title>Diagramas</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="estilos.css" media="screen"/>
+		<script type="text/javascript" src="acciones.js"></script>
 	</head>
 	
-	<body>
+	<body onload="inicio()">
 		<div id="botones">
 			<h2>Botones</h2>
-			<button id="inicio">Inicio</button></br>
-			<button id="entrada">Entrada</button></br>
-			<button id="proceso">Proceso</button></br>
-			<button id="condicion">CondiciÃ³n</button></br>
-			<button id="ciclo">Ciclo</button></br>
-			<button id="salida">Salida</button></br>
-			<button id="fin">Fin</button>
+			<button id="inicio" onClick="agregaInicio()">Inicio</button></br>
+			<button id="entrada" onClick="agregaEntrada()">Entrada</button></br>
+			<button id="proceso" onClick="agregaProceso()">Proceso</button></br>
+			<button id="condicion" onClick="agregaCondicion()">Condición</button></br>
+			<button id="salida" onClick="agregaSalida()">Salida</button></br>
+			<button id="fin" onClick="agregaFin()">Fin</button>
 		</div>
 		
 		<div id="lienzo">
 			<h2>Lienzo</h2>
-			<a href="https://www.color-hex.com/color-palette/5361">PALETA DE COLORES</a>
 		</div>
 	</body>
 </html> 
